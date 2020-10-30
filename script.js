@@ -1,11 +1,12 @@
 $(document).ready(function(){
     // Create variable for moment live date.
-    var moment = moment();
+    var m = moment();
       
-      
-    $("#currentDay").text(moment.format('LLL'));
-      
+    // Display Live-date.
+    $("#currentDay").text(m.format('LLL'));
+    
     });
-    console.log(moment);
+//    Coordinate the .past .present .future time block with live date.
+    // var colorTimeBlock = $("row time-block").css(past.present.future).text(m);
      
        
