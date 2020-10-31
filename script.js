@@ -31,9 +31,16 @@ $(document).ready(function(){
 
         localStorage.setItem(saveNote, textarea);
     });
-    // get local stored data and populace textarea.
-    // $(".time-block[data-time='9'] textarea").val(localStorage.getItem("9"));
-    
+    // get local stored data and populate textarea.
+    $(".time-block[data-time='9'] textarea").val(localStorage.getItem("9"));
+    $(".time-block[data-time='10'] textarea").val(localStorage.getItem("10"));
+    $(".time-block[data-time='11'] textarea").val(localStorage.getItem("11"));
+    $(".time-block[data-time='12'] textarea").val(localStorage.getItem("12"));
+    $(".time-block[data-time='13'] textarea").val(localStorage.getItem("13"));
+    $(".time-block[data-time='14'] textarea").val(localStorage.getItem("14"));
+    $(".time-block[data-time='15'] textarea").val(localStorage.getItem("15"));
+    $(".time-block[data-time='16'] textarea").val(localStorage.getItem("16"));
+    $(".time-block[data-time='17'] textarea").val(localStorage.getItem("17"));
 });
      
        
