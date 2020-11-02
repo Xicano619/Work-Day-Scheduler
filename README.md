@@ -9,12 +9,12 @@ The green tracks if the time is in the future, and if they were to check the cal
 
 ### Legend
 
-##### Time Tracker
--***Grey***(past)
+##### Time Tracker:
+######-***Grey***(past)
 
--***Red***(present)
+######-***Red***(present)
 
--***Green***(future)
+######-***Green***(future)
 
 ### Application Preview 
 
